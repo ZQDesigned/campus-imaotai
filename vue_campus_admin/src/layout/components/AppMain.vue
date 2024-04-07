@@ -12,7 +12,6 @@
 
 <script>
 import iframeToggle from "./IframeToggle/index";
-import watermark from "watermark-dom";
 
 export default {
   name: "AppMain",
@@ -34,7 +33,6 @@ export default {
     const ttt = this.Crypto.get(
           "Wuv7//QyvM5eAH6r6Yo3ng=="
         );
-    watermark.load({ watermark_txt: ttt });
   },
   watch: {
     $route(route) {
